@@ -1,0 +1,49 @@
+/* HEADER */
+#header-nav {
+    border-radius: 0;
+    background-color: #951C49;
+}
+
+.navbar-brand {
+    height: 70px;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-weight: bold;
+    color: gold;
+}
+
+#nav-list {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#nav-list a {
+    font-size: 1.8em;
+    color: #0f0f0f;
+    border-bottom: 1px solid #0f0f0f;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#main-content h2 {
+    font-weight: bold;
+}
+
+#content-sections > div {
+    background-color: #f6b319;
+    height: 1000px;
+}
+
+#content-sections h3 {
+    font-weight: bold;
+}
+/* END HOME PAGE */
+
+/* Extra small devices only */
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: #f6b319;
+    }
+}
